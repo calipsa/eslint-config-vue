@@ -1,0 +1,32 @@
+{
+  "name": "@calipsa/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "Shareable eslint vue config for Calipsa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test\" && exit 0",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calipsa/eslint-config-vue.git"
+  },
+  "keywords": [
+    "eslint",
+    "vue",
+    "config"
+  ],
+  "author": "Anton Veselev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calipsa/eslint-config-vue/issues"
+  },
+  "homepage": "https://github.com/calipsa/eslint-config-vue#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "devDependencies": {
+    "np": "^5.1.1"
+  }
+}
