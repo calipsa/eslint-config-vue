@@ -7,6 +7,7 @@ module.exports = {
   },
 
   extends: [
+    '@calipsa/eslint-config',
     'plugin:vue/recommended',
   ],
 
