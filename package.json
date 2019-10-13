@@ -24,7 +24,6 @@
   "homepage": "https://github.com/calipsa/eslint-config-vue#readme",
   "dependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^5.2.3",
     "vue-eslint-parser": "^6.0.4"
   },
