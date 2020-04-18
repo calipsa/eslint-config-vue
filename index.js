@@ -41,6 +41,10 @@ module.exports = {
     'vue/array-bracket-spacing': [2, 'never'],
     'vue/key-spacing': 2,
     'vue/padding-line-between-blocks': 2,
+    'vue/no-boolean-default': [2, 'default-false'],
+    'vue/no-static-inline-styles': [2, {
+      allowBinding: false,
+    }],
   },
 
   overrides: [
