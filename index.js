@@ -40,6 +40,7 @@ module.exports = {
     'vue/arrow-spacing': 2,
     'vue/array-bracket-spacing': [2, 'never'],
     'vue/key-spacing': 2,
+    'vue/padding-line-between-blocks': 2,
   },
 
   overrides: [
