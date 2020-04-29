@@ -30,7 +30,6 @@ module.exports = {
     'vue/component-name-in-template-casing': [2, 'PascalCase'],
     'vue/mustache-interpolation-spacing': [1, 'never'],
     'vue/require-default-prop': 0,
-    'vue/attributes-order': 0, // TODO: to be removed
     'vue/object-curly-spacing': [2, 'always'],
     'vue/comma-dangle': [2, 'always-multiline'],
     'vue/require-direct-export': 2,
