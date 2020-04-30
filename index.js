@@ -44,13 +44,4 @@ module.exports = {
       allowBinding: false,
     }],
   },
-
-  overrides: [
-    {
-      files: ['*.vue'],
-      rules: {
-        'max-len': 0,
-      },
-    },
-  ],
 }
