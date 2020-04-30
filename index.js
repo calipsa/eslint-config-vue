@@ -18,7 +18,7 @@ module.exports = {
   rules: {
     'vue/html-self-closing': [2, {
       html: {
-        void: 'any',
+        void: 'always',
         normal: 'always',
         component: 'always',
       },
