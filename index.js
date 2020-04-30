@@ -16,7 +16,6 @@ module.exports = {
   ],
 
   rules: {
-    'vue/require-component-is': 0, // TODO: to be removed
     'vue/html-self-closing': [2, {
       html: {
         void: 'any',
