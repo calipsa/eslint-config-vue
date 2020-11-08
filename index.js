@@ -27,6 +27,7 @@ module.exports = {
     }],
     'vue/attribute-hyphenation': [2, 'never'],
     'vue/component-name-in-template-casing': [2, 'PascalCase'],
+    'vue/custom-event-name-casing': 0,
     'vue/mustache-interpolation-spacing': [1, 'never'],
     'vue/require-default-prop': 0,
     'vue/object-curly-spacing': [2, 'always'],
