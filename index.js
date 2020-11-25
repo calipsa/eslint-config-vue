@@ -16,6 +16,12 @@ module.exports = {
   ],
 
   rules: {
+    'vue/eqeqeq': [2, 'always', {
+      null: 'ignore',
+    }],
+    'vue/no-extra-parens': 2,
+    'vue/prefer-template': 2,
+    'vue/template-curly-spacing': 2,
     'vue/html-self-closing': [2, {
       html: {
         void: 'always',
@@ -32,6 +38,8 @@ module.exports = {
     'vue/require-default-prop': 0,
     'vue/object-curly-spacing': [2, 'always'],
     'vue/comma-dangle': [2, 'always-multiline'],
+    'vue/comma-spacing': 2,
+    'vue/comma-style': 2,
     'vue/require-direct-export': 2,
     'vue/space-unary-ops': 2,
     'vue/space-infix-ops': 2,
