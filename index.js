@@ -44,10 +44,12 @@ module.exports = {
     'vue/space-unary-ops': 2,
     'vue/space-infix-ops': 2,
     'vue/v-on-function-call': 2,
+    'vue/v-for-delimiter-style': [2, 'of'],
     'vue/arrow-spacing': 2,
     'vue/array-bracket-spacing': [2, 'never'],
     'vue/key-spacing': 2,
     'vue/padding-line-between-blocks': 2,
+    'vue/no-useless-v-bind': 2,
     'vue/no-boolean-default': [2, 'default-false'],
     'vue/no-static-inline-styles': [2, {
       allowBinding: false,
