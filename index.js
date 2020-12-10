@@ -24,9 +24,11 @@ module.exports = {
     'vue/comma-style': 2,
     'vue/component-name-in-template-casing': [2, 'PascalCase'],
     'vue/custom-event-name-casing': 0,
+    'vue/dot-notation': 2,
     'vue/eqeqeq': [2, 'always', {
       null: 'ignore',
     }],
+    'vue/func-call-spacing': 2,
     'vue/html-self-closing': [2, {
       html: {
         void: 'always',
@@ -39,9 +41,21 @@ module.exports = {
     'vue/key-spacing': 2,
     'vue/mustache-interpolation-spacing': [1, 'never'],
     'vue/no-boolean-default': [2, 'default-false'],
+    'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
+    'vue/no-multiple-objects-in-class': 2,
     'vue/no-static-inline-styles': [2, {
       allowBinding: false,
+    }],
+    'vue/no-template-target-blank': 2,
+    'vue/no-unused-properties': [2, {
+      groups: [
+        'props',
+        'data',
+        'computed',
+        'methods',
+        'setup',
+      ],
     }],
     'vue/no-useless-v-bind': 2,
     'vue/object-curly-spacing': [2, 'always'],
@@ -49,6 +63,7 @@ module.exports = {
     'vue/prefer-template': 2,
     'vue/require-default-prop': 0,
     'vue/require-direct-export': 2,
+    'vue/space-in-parens': 2,
     'vue/space-infix-ops': 2,
     'vue/space-unary-ops': 2,
     'vue/template-curly-spacing': 2,
