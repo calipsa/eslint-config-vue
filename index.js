@@ -45,6 +45,12 @@ module.exports = {
     'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
     'vue/no-multiple-objects-in-class': 2,
+    'vue/no-restricted-static-attribute': [2,
+      {
+        key: 'id',
+        message: 'Using static "id" is not allowed, because global ids can conflict with each other',
+      },
+    ],
     'vue/no-static-inline-styles': [2, {
       allowBinding: false,
     }],
