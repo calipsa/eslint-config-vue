@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/calipsa/eslint-config-vue#readme",
   "dependencies": {
-    "@calipsa/eslint-config": "^1.20.0",
+    "@calipsa/eslint-config": "^1.20.2",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-vue": "^7.4.0",
     "vue-eslint-parser": "^7.3.0"
   },
   "devDependencies": {
-    "eslint": "^7.16.0",
-    "np": "^7.1.0"
+    "eslint": "^7.17.0",
+    "np": "^7.2.0"
   }
 }

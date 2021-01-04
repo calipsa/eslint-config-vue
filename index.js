@@ -40,7 +40,7 @@ module.exports = {
     }],
     'vue/key-spacing': 2,
     'vue/mustache-interpolation-spacing': [1, 'never'],
-    'vue/new-line-between-multi-line-property': 2,
+    // 'vue/new-line-between-multi-line-property': 2,
     'vue/no-boolean-default': [2, 'default-false'],
     'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
