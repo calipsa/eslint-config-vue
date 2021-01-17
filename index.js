@@ -77,5 +77,8 @@ module.exports = {
     'vue/template-curly-spacing': 2,
     'vue/v-for-delimiter-style': [2, 'of'],
     'vue/v-on-function-call': 2,
+
+    // TODO: remove when plugin:vue-scoped-css/vue3-recommended is added
+    'vue-scoped-css/no-deprecated-deep-combinator': 2,
   },
 }
