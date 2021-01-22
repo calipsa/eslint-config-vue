@@ -25,9 +25,9 @@
   "dependencies": {
     "@calipsa/eslint-config": "^1.21.1",
     "babel-eslint": "^10.1.0",
-    "eslint-plugin-vue": "^7.4.1",
+    "eslint-plugin-vue": "^7.5.0",
     "eslint-plugin-vue-scoped-css": "^1.1.0",
-    "vue-eslint-parser": "^7.3.0"
+    "vue-eslint-parser": "^7.4.1"
   },
   "devDependencies": {
     "eslint": "^7.18.0",

@@ -42,7 +42,9 @@ module.exports = {
     'vue/key-spacing': 2,
     'vue/mustache-interpolation-spacing': [1, 'never'],
     // 'vue/new-line-between-multi-line-property': 2,
+    'vue/next-tick-style': [2, 'promise'],
     'vue/no-boolean-default': [2, 'default-false'],
+    'vue/no-constant-condition': 2,
     'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
     'vue/no-multiple-objects-in-class': 2,
@@ -77,6 +79,7 @@ module.exports = {
     'vue/template-curly-spacing': 2,
     'vue/v-for-delimiter-style': [2, 'of'],
     'vue/v-on-function-call': 2,
+    'vue/valid-next-tick': 2,
 
     // TODO: remove when plugin:vue-scoped-css/vue3-recommended is added
     'vue-scoped-css/no-deprecated-deep-combinator': 2,
