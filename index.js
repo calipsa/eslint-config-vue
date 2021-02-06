@@ -54,10 +54,9 @@ module.exports = {
         message: 'Using static "id" is not allowed, because global ids can conflict with each other',
       },
     ],
-    'vue/no-static-inline-styles': [2, {
-      allowBinding: false,
-    }],
+    'vue/no-static-inline-styles': 2,
     'vue/no-template-target-blank': 2,
+    'vue/no-unregistered-components': 2,
     'vue/no-unused-properties': [2, {
       groups: [
         'props',
