@@ -20,6 +20,7 @@ module.exports = {
     'vue/array-bracket-spacing': [2, 'never'],
     'vue/arrow-spacing': 2,
     'vue/attribute-hyphenation': [2, 'never'],
+    'vue/block-tag-newline': 2,
     'vue/comma-dangle': [2, 'always-multiline'],
     'vue/comma-spacing': 2,
     'vue/comma-style': 2,
