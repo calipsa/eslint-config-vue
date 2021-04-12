@@ -1,6 +1,6 @@
 {
   "name": "@calipsa/eslint-config-vue",
-  "version": "1.24.0",
+  "version": "1.25.0",
   "description": "Shareable eslint vue config for Calipsa",
   "main": "index.js",
   "scripts": {
