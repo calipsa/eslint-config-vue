@@ -48,6 +48,7 @@ module.exports = {
     'vue/no-constant-condition': 2,
     'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
+    'vue/no-invalid-model-keys': 2,
     'vue/no-multiple-objects-in-class': 2,
     'vue/no-restricted-static-attribute': [2,
       {
@@ -67,6 +68,7 @@ module.exports = {
         'setup',
       ],
     }],
+    'vue/no-unused-refs': 2,
     'vue/no-useless-v-bind': 2,
     'vue/object-curly-spacing': [2, 'always'],
     'vue/padding-line-between-blocks': 2,
