@@ -46,6 +46,7 @@ module.exports = {
     'vue/next-tick-style': [2, 'promise'],
     'vue/no-boolean-default': [2, 'default-false'],
     'vue/no-constant-condition': 2,
+    'vue/no-duplicate-attr-inheritance': 2,
     'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
     'vue/no-invalid-model-keys': 2,
