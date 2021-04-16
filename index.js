@@ -56,6 +56,16 @@ module.exports = {
         key: 'id',
         message: 'Using static "id" is not allowed, because global ids can conflict with each other',
       },
+      {
+        key: 'colspan',
+        value: '1',
+        message: 'colspan="1" is redundant',
+      },
+      {
+        key: 'rowspan',
+        value: '1',
+        message: 'rowspan="1" is redundant',
+      },
     ],
     'vue/no-static-inline-styles': 2,
     'vue/no-template-target-blank': 2,
