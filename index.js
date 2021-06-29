@@ -46,6 +46,7 @@ module.exports = {
     'vue/next-tick-style': [2, 'promise'],
     'vue/no-boolean-default': [2, 'default-false'],
     'vue/no-constant-condition': 2,
+    'vue/no-deprecated-v-is': 2,
     'vue/no-duplicate-attr-inheritance': 2,
     'vue/no-empty-component-block': 2,
     'vue/no-extra-parens': 2,
@@ -69,6 +70,7 @@ module.exports = {
     ],
     'vue/no-static-inline-styles': 2,
     'vue/no-template-target-blank': 2,
+    'vue/no-this-in-before-route-enter': 2,
     'vue/no-unregistered-components': 2,
     'vue/no-unused-properties': [2, {
       groups: [
